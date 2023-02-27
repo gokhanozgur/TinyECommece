@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "TinyECommerce.Application/1.0.0": {
+        "dependencies": {
+          "TinyECommerce.Domain": "1.0.0"
+        },
         "runtime": {
           "TinyECommerce.Application.dll": {}
+        }
+      },
+      "TinyECommerce.Domain/1.0.0": {
+        "runtime": {
+          "TinyECommerce.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "TinyECommerce.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TinyECommerce.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

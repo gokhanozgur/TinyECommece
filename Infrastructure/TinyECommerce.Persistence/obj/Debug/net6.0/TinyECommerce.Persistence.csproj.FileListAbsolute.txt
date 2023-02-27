@@ -10,3 +10,8 @@
 /Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/refint/TinyECommerce.Persistence.dll
 /Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.pdb
 /Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/ref/TinyECommerce.Persistence.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Application.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Domain.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Application.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Domain.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.csproj.CopyComplete

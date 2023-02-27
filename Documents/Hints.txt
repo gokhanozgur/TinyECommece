@@ -8,3 +8,5 @@
 - Presentation dosyası altında ProjectName.API Asp.Net Web API uygulaması oluşturlur.
     - ProjectName.API istekleri karşılayan operasyonlar için kullanılır.
 - Ioc container tanımlaması için ProjectName.Persistence altında ServiceRegistration class görev yapar ProjectName.API altındaki Program.cs sınıfında belirtilir.
+- Middleware kullanmak gerekiyorsa: dış servisler ile iletişime giriyorsa ProjectName.Infrastructure, 
+    database ile çalışılacaksa ProjectName.Persistence ve bunların dışında her ikisiyle de çalışılmayacaksa doğrudan ProjectName.API içerisinde olabilir.

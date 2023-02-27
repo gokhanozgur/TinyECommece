@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "VkmqRPJDiOf2nkDMETJPjotxh7vktC4fB2oT8QL8gqetzcGVPce/lWyWaW1tmYWlSqSPMSZwXtbBvhseBF46Eg==",
+  "dgSpecHash": "wmAhkfluhdChpzd2+mhXyHsKHhy8zjsDv74XFK6Wm/8tmNpJ6ggrdOQCoKRC2s5HrLbPUXlTBueSaPFdNVC8mQ==",
   "success": true,
   "projectFilePath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/TinyECommerce.API.csproj",
   "expectedPackageFiles": [
     "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.1.23110.8/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.1.23110.8.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

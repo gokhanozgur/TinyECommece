@@ -1,6 +1,11 @@
+using TinyECommerce.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+/* Add Services to Ioc Container */
+builder.Services.AddPersistenceServices();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

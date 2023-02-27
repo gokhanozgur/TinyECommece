@@ -18,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
+      <ProjectReference Include="..\..\Infrastructure\TinyECommerce.Persistence\TinyECommerce.Persistence.csproj" />
     </ItemGroup>
 
 </Project>

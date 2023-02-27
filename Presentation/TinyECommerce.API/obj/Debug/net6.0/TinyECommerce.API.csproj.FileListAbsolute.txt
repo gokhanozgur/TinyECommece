@@ -30,3 +30,10 @@
 /Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/obj/Debug/net6.0/TinyECommerce.API.pdb
 /Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/obj/Debug/net6.0/TinyECommerce.API.genruntimeconfig.cache
 /Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/obj/Debug/net6.0/ref/TinyECommerce.API.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/bin/Debug/net6.0/TinyECommerce.Application.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/bin/Debug/net6.0/TinyECommerce.Domain.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/bin/Debug/net6.0/TinyECommerce.Persistence.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/bin/Debug/net6.0/TinyECommerce.Persistence.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/bin/Debug/net6.0/TinyECommerce.Application.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/bin/Debug/net6.0/TinyECommerce.Domain.pdb
