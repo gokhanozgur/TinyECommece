@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1A6FD86B-696E-4EF4-ABA8-B5DA879F2183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyECommerce.Domain", "Core\TinyECommerce.Domain\TinyECommerce.Domain.csproj", "{1A74BE2A-1B3A-4EA7-A391-0C9E2FB7880B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyECommerce.Application", "Core\TinyECommerce.Application\TinyECommerce.Application.csproj", "{13210E7E-2883-4870-AE79-D27B2B20A93C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A94609DD-910B-42F8-B957-62514651954C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyECommerce.Infrastructure", "Infrastructure\TinyECommerce.Infrastructure\TinyECommerce.Infrastructure.csproj", "{3573F1D1-D81F-4432-9D9F-A22A1D716283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyECommerce.Persistence", "Infrastructure\TinyECommerce.Persistence\TinyECommerce.Persistence.csproj", "{7EBE1654-FACC-4EBF-91FC-CD8298E0FBD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C9DF7183-F3A9-41EA-82A7-59E0012F1A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyECommerce.API", "Presentation\TinyECommerce.API\TinyECommerce.API.csproj", "{C0E400CB-420A-42D7-98EE-D0578262DCE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A74BE2A-1B3A-4EA7-A391-0C9E2FB7880B} = {1A6FD86B-696E-4EF4-ABA8-B5DA879F2183}
+		{13210E7E-2883-4870-AE79-D27B2B20A93C} = {1A6FD86B-696E-4EF4-ABA8-B5DA879F2183}
+		{3573F1D1-D81F-4432-9D9F-A22A1D716283} = {A94609DD-910B-42F8-B957-62514651954C}
+		{7EBE1654-FACC-4EBF-91FC-CD8298E0FBD8} = {A94609DD-910B-42F8-B957-62514651954C}
+		{C0E400CB-420A-42D7-98EE-D0578262DCE1} = {C9DF7183-F3A9-41EA-82A7-59E0012F1A1F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A74BE2A-1B3A-4EA7-A391-0C9E2FB7880B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A74BE2A-1B3A-4EA7-A391-0C9E2FB7880B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A74BE2A-1B3A-4EA7-A391-0C9E2FB7880B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A74BE2A-1B3A-4EA7-A391-0C9E2FB7880B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13210E7E-2883-4870-AE79-D27B2B20A93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13210E7E-2883-4870-AE79-D27B2B20A93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13210E7E-2883-4870-AE79-D27B2B20A93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13210E7E-2883-4870-AE79-D27B2B20A93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3573F1D1-D81F-4432-9D9F-A22A1D716283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3573F1D1-D81F-4432-9D9F-A22A1D716283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3573F1D1-D81F-4432-9D9F-A22A1D716283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3573F1D1-D81F-4432-9D9F-A22A1D716283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EBE1654-FACC-4EBF-91FC-CD8298E0FBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBE1654-FACC-4EBF-91FC-CD8298E0FBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBE1654-FACC-4EBF-91FC-CD8298E0FBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBE1654-FACC-4EBF-91FC-CD8298E0FBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E400CB-420A-42D7-98EE-D0578262DCE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E400CB-420A-42D7-98EE-D0578262DCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E400CB-420A-42D7-98EE-D0578262DCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E400CB-420A-42D7-98EE-D0578262DCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
