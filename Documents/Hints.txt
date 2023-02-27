@@ -1,0 +1,10 @@
+- Onion Architecture yapılandırması için Core, Infrastructure, Presentation solution file'lar oluşturulur.
+- Core dosyası altında ProjectName.Application ve ProjectName.Domain Class Library oluşturulur.
+    - ProjectName.Application entity soyutlamaları için kullanılır.
+    - ProjectName.Domain entity'lerin kendileri için kullanılır.
+- Infrastructure dosyası altında ProjectName.Infrastructure ve ProjectName.Persistence Class Library oluşturulur.
+    - ProjectName.Infrastructure dış kaynak operasyonlarını tanımlamada kullanılır.
+    - ProjectName.Persistence iç kaynak varlıklarını yani database operasyonlarımız için kullanılır.
+- Presentation dosyası altında ProjectName.API Asp.Net Web API uygulaması oluşturlur.
+    - ProjectName.API istekleri karşılayan operasyonlar için kullanılır.
+- Ioc container tanımlaması için ProjectName.Persistence altında ServiceRegistration class görev yapar ProjectName.API altındaki Program.cs sınıfında belirtilir.
