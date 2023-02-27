@@ -1,0 +1,12 @@
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Persistence.deps.json
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Persistence.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Persistence.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.csproj.AssemblyReference.cache
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.AssemblyInfoInputs.cache
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.AssemblyInfo.cs
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.csproj.CoreCompileInputs.cache
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/refint/TinyECommerce.Persistence.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/ref/TinyECommerce.Persistence.dll

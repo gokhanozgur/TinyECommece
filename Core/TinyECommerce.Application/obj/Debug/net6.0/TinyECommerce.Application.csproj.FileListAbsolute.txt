@@ -1,0 +1,12 @@
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/bin/Debug/net6.0/TinyECommerce.Application.deps.json
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/bin/Debug/net6.0/TinyECommerce.Application.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/bin/Debug/net6.0/TinyECommerce.Application.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/Debug/net6.0/TinyECommerce.Application.csproj.AssemblyReference.cache
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/Debug/net6.0/TinyECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/Debug/net6.0/TinyECommerce.Application.AssemblyInfoInputs.cache
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/Debug/net6.0/TinyECommerce.Application.AssemblyInfo.cs
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/Debug/net6.0/TinyECommerce.Application.csproj.CoreCompileInputs.cache
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/Debug/net6.0/TinyECommerce.Application.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/Debug/net6.0/refint/TinyECommerce.Application.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/Debug/net6.0/TinyECommerce.Application.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/Debug/net6.0/ref/TinyECommerce.Application.dll

@@ -1,0 +1,12 @@
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/bin/Debug/net6.0/TinyECommerce.Infrastructure.deps.json
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/bin/Debug/net6.0/TinyECommerce.Infrastructure.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/bin/Debug/net6.0/TinyECommerce.Infrastructure.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/Debug/net6.0/TinyECommerce.Infrastructure.csproj.AssemblyReference.cache
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/Debug/net6.0/TinyECommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/Debug/net6.0/TinyECommerce.Infrastructure.AssemblyInfoInputs.cache
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/Debug/net6.0/TinyECommerce.Infrastructure.AssemblyInfo.cs
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/Debug/net6.0/TinyECommerce.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/Debug/net6.0/TinyECommerce.Infrastructure.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/Debug/net6.0/refint/TinyECommerce.Infrastructure.dll
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/Debug/net6.0/TinyECommerce.Infrastructure.pdb
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/Debug/net6.0/ref/TinyECommerce.Infrastructure.dll
