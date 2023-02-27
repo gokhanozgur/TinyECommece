@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "TinyECommerce.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TinyECommerce.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TinyECommerce.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TinyECommerce.Application.dll": {}
+        }
+      },
+      "TinyECommerce.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TinyECommerce.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TinyECommerce.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TinyECommerce.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/TinyECommerce.Application/TinyECommerce.Application.csproj",
+      "msbuildProject": "../../Core/TinyECommerce.Application/TinyECommerce.Application.csproj"
+    },
+    "TinyECommerce.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj",
+      "msbuildProject": "../../Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "TinyECommerce.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/gokhanozgur/.nuget/packages/": {}
@@ -31,7 +68,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj": {
+              "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
