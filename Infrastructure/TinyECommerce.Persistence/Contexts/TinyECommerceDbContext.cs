@@ -3,9 +3,9 @@ using TinyECommerce.Domain.Entities;
 
 namespace TinyECommerce.Persistence.Contexts;
 
-public class TinyCommerceDbContext: DbContext
+public class TinyECommerceDbContext: DbContext
 {
-    public TinyCommerceDbContext(DbContextOptions options) : base(options)
+    public TinyECommerceDbContext(DbContextOptions options) : base(options)
     {
     }
 

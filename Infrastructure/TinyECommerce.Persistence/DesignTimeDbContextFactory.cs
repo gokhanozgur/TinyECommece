@@ -4,11 +4,11 @@ using TinyECommerce.Persistence.Contexts;
 
 namespace TinyECommerce.Persistence;
 
-public class DesignTimeDbContextFactory: IDesignTimeDbContextFactory<TinyCommerceDbContext>
+public class DesignTimeDbContextFactory: IDesignTimeDbContextFactory<TinyECommerceDbContext>
 {
-    public TinyCommerceDbContext CreateDbContext(string[] args)
+    public TinyECommerceDbContext CreateDbContext(string[] args)
     {
-        DbContextOptionsBuilder<TinyCommerceDbContext> dbContextOptionsBuilder = new();
+        DbContextOptionsBuilder<TinyECommerceDbContext> dbContextOptionsBuilder = new();
         dbContextOptionsBuilder.UseNpgsql(Configuration.PostgreSqlConnectionString);
         return new(dbContextOptionsBuilder.Options);
     }

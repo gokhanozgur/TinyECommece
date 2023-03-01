@@ -17,6 +17,6 @@ public static class ServiceRegistration
         /*
          * The following definitions allow the any database connection string declarations.
          */
-        services.AddDbContext<TinyCommerceDbContext>(options => options.UseNpgsql(Configuration.PostgreSqlConnectionString));
+        services.AddDbContext<TinyECommerceDbContext>(options => options.UseNpgsql(Configuration.PostgreSqlConnectionString));
     }
 }

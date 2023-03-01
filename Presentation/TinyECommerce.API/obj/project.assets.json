@@ -625,6 +625,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.1.23111.4",
           "TinyECommerce.Domain": "1.0.0"
         },
         "compile": {

@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "Pq14WPbjTDyHgiZJYdLxqi5ONkoZdZYCoBzw2nuAdiUEkGKhQaPjQpqRSn1Jg1DBiO98rfbhXQCS/OtvYk1v+Q==",
+  "dgSpecHash": "s8bpLTaSLsfinxqy8Fzl46zzsRRNFbc2uX24DjJAbO9O9hKnsxLVnzRtuErKg94rO8N++/umCtG1+MAn9pZ3Cw==",
   "success": true,
   "projectFilePath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/gokhanozgur/.nuget/packages/microsoft.entityframeworkcore/8.0.0-preview.1.23111.4/microsoft.entityframeworkcore.8.0.0-preview.1.23111.4.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0-preview.1.23111.4/microsoft.entityframeworkcore.abstractions.8.0.0-preview.1.23111.4.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.0-preview.1.23111.4/microsoft.entityframeworkcore.analyzers.8.0.0-preview.1.23111.4.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0-preview.1.23110.8/microsoft.extensions.caching.abstractions.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.caching.memory/8.0.0-preview.1.23110.8/microsoft.extensions.caching.memory.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0-preview.1.23110.8/microsoft.extensions.dependencyinjection.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.1.23110.8/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.logging/8.0.0-preview.1.23110.8/microsoft.extensions.logging.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0-preview.1.23110.8/microsoft.extensions.logging.abstractions.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.options/8.0.0-preview.1.23110.8/microsoft.extensions.options.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.primitives/8.0.0-preview.1.23110.8/microsoft.extensions.primitives.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
