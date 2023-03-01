@@ -8,5 +8,22 @@
 - Presentation dosyası altında ProjectName.API Asp.Net Web API uygulaması oluşturlur.
     - ProjectName.API istekleri karşılayan operasyonlar için kullanılır.
 - Ioc container tanımlaması için ProjectName.Persistence altında ServiceRegistration class görev yapar ProjectName.API altındaki Program.cs sınıfında belirtilir.
+    Dependency injection söz konusu olduğu için NuGet ile Microsoft.Extensions.DependencyInjection.Abstractions paketi dahil edilmelidir.
 - Middleware kullanmak gerekiyorsa: dış servisler ile iletişime giriyorsa ProjectName.Infrastructure, 
     database ile çalışılacaksa ProjectName.Persistence ve bunların dışında her ikisiyle de çalışılmayacaksa doğrudan ProjectName.API içerisinde olabilir.
+- Projede database kullanmak için code first yaklaşımı sergilenmiştir.
+    - Tabloların oluşması için ProjectName.Domain katmanında entity sınıfları oluşturulur.
+    - İlgili veritabanı yönetimi için connection string tanımı tek bir noktadan yönetilebilir olması için ProjectName.API altındaki appSettings.json içerisinde tanımlanır.
+    - Context'lerimizi yönetebilmek için ProjectName.Persistence altında Context dosyası oluşturulur. Bu dosya altında, daha önceden oluşturulan entity sınıflarını DbSet ile Context'te belirtilir.
+    - Sınıfın DbContext implemente etmesi gerekmektedir. NuGet ile Microsoft.EntityFrameworkCore paketi projeye eklenir.
+    - Oluşturulan context sınıfının, normal şartlarda Program.cs içerisinde belirtilmesi gerekmektedir. Fakat zaten ServiceRegistration sınıfı olduğundan dolayı, bu sınıf altında tanımlanması mümkündür.
+    - Registration sınıfında, daha önceden appSettings.json içerisinde tanımladığımız connection string'i çağırabilmek için bir Configuration sınıfına ihtiyaç vadır.
+        Çalışacağımız sınıf ve ayar dosyası farklı katmanlarda olduğundan dolayı NuGet ile ProjectName.Persistence katmanında Microsoft.Extensions.Configuration ve Microsoft.Extensions.Configuration.Json paketleri katmana dahil edilir.
+    - Dotnet'te database yönetimi varsayılan MSSQL olarak tanımlıdır. PostgreSQL ile çalışabilmek için Nuget ile Npgsql.EntityFrameworkcore.PostgreSQL paketinin katmana eklenmesi gerekmektedir.
+    - Migration oluşturma, database seeding gibi işlemler için console üzerinden komut çalıştırılır.
+        Visual Studio kullanıyorsak: add-migration migration_name ve update-database komutları kullanılır.
+        Eğer bunun dışında bir yerden komut çalıştırmak istiyorsak: dotnet ef migrations add migration_name ve dotnet ef database update komutları kullanılır.
+        Not: Eğer dotnet ef komutlarını kullanmak istiyorsak projemizde ilgili katmanda Microsoft.EntityFrameworkcore.Tools paketinin kurulu olması ve global olarak komut dizisinin console ile yüklenmesi gerekmektedir.
+        dotnet tool install --global dotnet-ef ile komutları çalıştırabilir hale gelir.
+    - Migration komutu çalıştığında, start up ProjectName.API olduğu için bu katmanda NuGet ile Microsoft.EntityFrameworkCore.Design paketinin dahil edilmesi gerekmektedir.
+    

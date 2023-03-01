@@ -1,0 +1,69 @@
+version: '3.4'
+
+services:
+  tinyecommerce.api:
+    container_name: ${PROJECT_NAME:-projectname}-container
+    image: ${PROJECT_NAME:-projectname}
+    build:
+      context: .
+      dockerfile: Presentation/TinyECommerce.API/Dockerfile
+  sqlserver:
+    container_name: sqlserver-container
+    image: masstransit/sqlserver-quartz
+    ports:
+      - "${SQL_SERVER_PORT:-1433}"
+    environment:
+      SA_PASSWORD: ${SA_PASSWORD:-admin}
+      ACCEPT_EULA: "Y"
+  postgres:
+    container_name: postgres-container
+    image: postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      POSTGRES_DB: ${POSTGRES_DB:-sample_db}
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - "${POSTGRES_DB_PORT:-5432}"
+    networks:
+      - postgres
+    restart: unless-stopped
+  pgadmin:
+    container_name: pgadmin-container
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin4@pgadmin.org}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+
+    ports:
+      - "${PGADMIN_PORT:-5050}:80"
+    depends_on:
+      - postgres
+    networks:
+      - postgres
+    restart: unless-stopped
+  datadog:
+    container_name: datadog-agent-container
+    image: datadog/agent
+    pid: host
+    environment:
+      - DD_API_KEY=${DD_API_KEY}
+      - DD_SITE=${DD_SITE}
+      - DD_LOGS_ENABLED=${DD_LOGS_ENABLED}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /proc/:/host/proc/:ro
+      - /sys/fs/cgroup:/host/sys/fs/cgroup:ro
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+  postgres:
+  pgadmin:

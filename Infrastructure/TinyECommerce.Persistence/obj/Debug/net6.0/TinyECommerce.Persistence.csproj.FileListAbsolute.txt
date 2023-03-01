@@ -15,3 +15,5 @@
 /Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Application.pdb
 /Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Domain.pdb
 /Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.csproj.CopyComplete
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/bin/Debug/net6.0/TinyECommerce.Persistence.runtimeconfig.json
+/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/obj/Debug/net6.0/TinyECommerce.Persistence.genruntimeconfig.cache
