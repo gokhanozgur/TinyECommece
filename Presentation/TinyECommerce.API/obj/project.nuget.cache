@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D/lhoaWq6trve7krXORBZiFx8bghEjIBDBM+HLZP4T3iCLHtqiC5kvnVjbEDz+ww823QG3pTWvGBKijuurOqSQ==",
+  "dgSpecHash": "z4qwsKtkPG2eP4ReGt1At6l22hrfMA5v9xH/n+Wc/5ZPwF7EEYQAFFcNHasEfrGouWQHsIr4AfEd081223VOxA==",
   "success": true,
-  "projectFilePath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/TinyECommerce.API.csproj",
+  "projectFilePath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Presentation/TinyECommerce.API/TinyECommerce.API.csproj",
   "expectedPackageFiles": [
     "/Users/gokhanozgur/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/microsoft.entityframeworkcore/8.0.0-preview.1.23111.4/microsoft.entityframeworkcore.8.0.0-preview.1.23111.4.nupkg.sha512",

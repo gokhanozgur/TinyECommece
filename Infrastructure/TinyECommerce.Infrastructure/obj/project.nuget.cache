@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s8bpLTaSLsfinxqy8Fzl46zzsRRNFbc2uX24DjJAbO9O9hKnsxLVnzRtuErKg94rO8N++/umCtG1+MAn9pZ3Cw==",
+  "dgSpecHash": "Vv3V8kdbf7IPz2Tdd6mbaV/am1MyDaP0g33JeIEHc0hV6CF/7n9FCLoNnBOpl9AMsbZf2PRfEGdwPJhgr7WQAQ==",
   "success": true,
-  "projectFilePath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
+  "projectFilePath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/gokhanozgur/.nuget/packages/microsoft.entityframeworkcore/8.0.0-preview.1.23111.4/microsoft.entityframeworkcore.8.0.0-preview.1.23111.4.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0-preview.1.23111.4/microsoft.entityframeworkcore.abstractions.8.0.0-preview.1.23111.4.nupkg.sha512",

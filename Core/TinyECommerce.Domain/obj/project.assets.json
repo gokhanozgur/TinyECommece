@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj",
+      "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj",
       "projectName": "TinyECommerce.Domain",
-      "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj",
+      "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj",
       "packagesPath": "/Users/gokhanozgur/.nuget/packages/",
-      "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Domain/obj/",
+      "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gokhanozgur/.nuget/NuGet/NuGet.Config"

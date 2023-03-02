@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj": {}
+    "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj": {
+    "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj",
+        "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj",
         "projectName": "TinyECommerce.Application",
-        "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj",
+        "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj",
         "packagesPath": "/Users/gokhanozgur/.nuget/packages/",
-        "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/obj/",
+        "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gokhanozgur/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj": {
-                "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj"
+              "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj": {
+                "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj": {
+    "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj",
+        "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj",
         "projectName": "TinyECommerce.Domain",
-        "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj",
+        "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Domain/TinyECommerce.Domain.csproj",
         "packagesPath": "/Users/gokhanozgur/.nuget/packages/",
-        "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Domain/obj/",
+        "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gokhanozgur/.nuget/NuGet/NuGet.Config"
@@ -120,14 +120,14 @@
         }
       }
     },
-    "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj": {
+    "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
+        "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
         "projectName": "TinyECommerce.Infrastructure",
-        "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
+        "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
         "packagesPath": "/Users/gokhanozgur/.nuget/packages/",
-        "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/",
+        "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gokhanozgur/.nuget/NuGet/NuGet.Config"
@@ -142,8 +142,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj": {
-                "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj"
+              "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj": {
+                "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj"
               }
             }
           }

@@ -617,11 +617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
+      "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
       "projectName": "TinyECommerce.Infrastructure",
-      "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
+      "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Infrastructure/TinyECommerce.Infrastructure.csproj",
       "packagesPath": "/Users/gokhanozgur/.nuget/packages/",
-      "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/",
+      "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gokhanozgur/.nuget/NuGet/NuGet.Config"
@@ -636,8 +636,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj": {
-              "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj"
+            "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj": {
+              "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Core/TinyECommerce.Application/TinyECommerce.Application.csproj"
             }
           }
         }

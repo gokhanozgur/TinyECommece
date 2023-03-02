@@ -1639,11 +1639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/TinyECommerce.API.csproj",
+      "projectUniqueName": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Presentation/TinyECommerce.API/TinyECommerce.API.csproj",
       "projectName": "TinyECommerce.API",
-      "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/TinyECommerce.API.csproj",
+      "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Presentation/TinyECommerce.API/TinyECommerce.API.csproj",
       "packagesPath": "/Users/gokhanozgur/.nuget/packages/",
-      "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Presentation/TinyECommerce.API/obj/",
+      "outputPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Presentation/TinyECommerce.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gokhanozgur/.nuget/NuGet/NuGet.Config"
@@ -1658,8 +1658,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/TinyECommerce.Persistence.csproj": {
-              "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TintyECommece/Infrastructure/TinyECommerce.Persistence/TinyECommerce.Persistence.csproj"
+            "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Persistence/TinyECommerce.Persistence.csproj": {
+              "projectPath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Persistence/TinyECommerce.Persistence.csproj"
             }
           }
         }
