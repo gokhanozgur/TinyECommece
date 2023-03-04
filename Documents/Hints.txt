@@ -1,7 +1,7 @@
 - Onion Architecture yapılandırması için Core, Infrastructure, Presentation solution file'lar oluşturulur.
 - Core dosyası altında ProjectName.Application ve ProjectName.Domain Class Library oluşturulur.
     - ProjectName.Application entity soyutlamaları için kullanılır.
-    - ProjectName.Domain entity'lerin kendileri için kullanılır.
+    - ProjectName.Domain entity tanımı için kullanılır.
 - Infrastructure dosyası altında ProjectName.Infrastructure ve ProjectName.Persistence Class Library oluşturulur.
     - ProjectName.Infrastructure dış kaynak operasyonlarını tanımlamada kullanılır.
     - ProjectName.Persistence iç kaynak varlıklarını yani database operasyonlarımız için kullanılır.
@@ -19,6 +19,7 @@
     - Oluşturulan context sınıfının, normal şartlarda Program.cs içerisinde belirtilmesi gerekmektedir. Fakat zaten ServiceRegistration sınıfı olduğundan dolayı, bu sınıf altında tanımlanması mümkündür.
     - Registration sınıfında, daha önceden appSettings.json içerisinde tanımladığımız connection string'i çağırabilmek için bir Configuration sınıfına ihtiyaç vadır.
         Çalışacağımız sınıf ve ayar dosyası farklı katmanlarda olduğundan dolayı NuGet ile ProjectName.Persistence katmanında Microsoft.Extensions.Configuration ve Microsoft.Extensions.Configuration.Json paketleri katmana dahil edilir.
+    *- Burata DesignTimeDbContextFactory ile ilgili açıklama girmeyi unutma!
     - Dotnet'te database yönetimi varsayılan MSSQL olarak tanımlıdır. PostgreSQL ile çalışabilmek için Nuget ile Npgsql.EntityFrameworkcore.PostgreSQL paketinin katmana eklenmesi gerekmektedir.
     - Migration oluşturma, database seeding gibi işlemler için console üzerinden komut çalıştırılır.
         Visual Studio kullanıyorsak: add-migration migration_name ve update-database komutları kullanılır.
@@ -26,4 +27,20 @@
         Not: Eğer dotnet ef komutlarını kullanmak istiyorsak projemizde ilgili katmanda Microsoft.EntityFrameworkcore.Tools paketinin kurulu olması ve global olarak komut dizisinin console ile yüklenmesi gerekmektedir.
         dotnet tool install --global dotnet-ef ile komutları çalıştırabilir hale gelir.
     - Migration komutu çalıştığında, start up ProjectName.API olduğu için bu katmanda NuGet ile Microsoft.EntityFrameworkCore.Design paketinin dahil edilmesi gerekmektedir.
-    
+- Generic repository design pattern altyapısı hazırlıkları.
+    - Öncelikle odaklanılması gereken query ve command ayırımı düşünülmelidir. Bunu basitçe select ve insert, update, delete sorgularını ayırmak olarak düşünebiliriz.
+    - Soyut arayüzler TinyECommerce.Application katmanında belirtilir.
+    - TinyECommerce.Application katmanında Repositories klasörü eklenir ve NuGet ile Microsoft.EntityFrameworkCore paketi projeye eklenir.
+    - İlgili katmanda IReadRepository ve IWriteRepository arayüzleri IRepository arayüzü ile birlikte implemente edilir. Bu arayüzler herhangi bir entity ile çalışacak şekilde tasarlanır.
+    - Tanımlayacağımız soyut methodlar, Entitiy Framework ile asenkron yapıda çalışabilir olanları için geri dönüş tipleri ve isimlendirmeleri önemlidir.
+    - Bu çalışma tamamlandıktan sonra TinyECommerce.Persistence katmanında somut arayüzleri tanımlamak için Repositories klasörü eklendir.
+    - Aynı şekilde ReadRepository sınıfı IReadRepository implemente ederek, WriteRepository sınıfı IWriteRepository implemente ederek oluşturulur.
+    - IRepository diye ayrıca bir ekleme yapılması gerekmez, zaten implemente edilen arayüzünden geliyor olacaktır.
+    - Bu hazırlıktan sonra her bir entity model için soyut repository sınıfları hazırlanır.
+        -  TinyECommerce.Application katmanında klasörlere bölünerek interface'ler hazırlanır(Örn. Customer, Product, Order).
+            - ICustomerReadRepository, ICustomerWriteRepository...
+    - Soyutlama sınıfları hazırlandıktan sonra, bu sınıfları implemente edecek somut sınıflar hazırlanır.
+        - TinyECommerce.Persistence katmanında klasörlere bölünerek sınıflar hazırlanır(Örn. Customer, Product, Order).
+            - CustomerReadRepository, CustomerWriteRepository...
+    - Oluşturulan repository'ler ServisRegistration sınıfında register edilir.
+    - Bu aşamada controller'da bir method hazırlayarak yapıpın çalıştığı kontrol edilebilir.
