@@ -1,6 +1,7 @@
 using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using TinyECommerce.Application.Repositories;
+using TinyECommerce.Domain.Entities;
 using TinyECommerce.Persistence.Repositories;
 
 namespace TinyECommerce.API.V1.Controllers;
@@ -44,5 +45,12 @@ public class ProductsController: ControllerBase
         {
             return BadRequest();
         }
+    }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> Get(string id)
+    {
+        Product product = await _productReadRepository.GetByIdAsync(id);
+        return Ok(product);
     }
 }
