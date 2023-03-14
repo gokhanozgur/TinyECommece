@@ -13,21 +13,21 @@ public static class ServiceRegistration
         /*
          * The following definitions allow the any database connection string declarations.
          */
-        services.AddDbContext<TinyECommerceDbContext>(options => options.UseNpgsql(Configuration.PostgreSqlConnectionString), ServiceLifetime.Singleton);
-        
+        services.AddDbContext<TinyECommerceDbContext>(options => options.UseNpgsql(Configuration.PostgreSqlConnectionString));
+
         /*
          * Definitions for repositories.
          */
         // Customer Repositories
-        services.AddSingleton<ICustomerReadRepository, CustomerReadRepository>();
-        services.AddSingleton<ICustomerWriteRepository, CustomerWriteRepository>();
+        services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
+        services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
 
         // Product Repositories
-        services.AddSingleton<IProductReadRepository, ProductReadRepository>();
-        services.AddSingleton<IProductWriteRepository, ProductWriteRepository>();
+        services.AddScoped<IProductReadRepository, ProductReadRepository>();
+        services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
 
         // Order Repositories
-        services.AddSingleton<IOrderReadRepository, OrderReadRepository>();
-        services.AddSingleton<IOrderWriteRepository, OrderWriteRepository>();
+        services.AddScoped<IOrderReadRepository, OrderReadRepository>();
+        services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
     }
 }

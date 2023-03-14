@@ -27,11 +27,11 @@ public class ProductsController: ControllerBase
     {
         try
         {
-            _productWriteRepository.AddRangeAsync(new()
+            await _productWriteRepository.AddRangeAsync(new()
             {
-                new() {Id = Guid.NewGuid(), Name = "Product 1", Price = 100, Stock = 10, CreatedAt = DateTime.Now},
-                new() {Id = Guid.NewGuid(), Name = "Product 2", Price = 200, Stock = 20, CreatedAt = DateTime.Now},
-                new() {Id = Guid.NewGuid(), Name = "Product 3", Price = 300, Stock = 30, CreatedAt = DateTime.Now},
+                new() {Id = Guid.NewGuid(), Name = "Product 1", Price = 100, Stock = 10, CreatedAt = DateTime.UtcNow},
+                new() {Id = Guid.NewGuid(), Name = "Product 2", Price = 200, Stock = 20, CreatedAt = DateTime.UtcNow},
+                new() {Id = Guid.NewGuid(), Name = "Product 3", Price = 300, Stock = 30, CreatedAt = DateTime.UtcNow},
             });
             var count = await _productWriteRepository.SaveAsync();
             if (count > 0)
