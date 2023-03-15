@@ -26,6 +26,7 @@
         Eğer bunun dışında bir yerden komut çalıştırmak istiyorsak: dotnet ef migrations add migration_name ve dotnet ef database update komutları kullanılır.
         Not: Eğer dotnet ef komutlarını kullanmak istiyorsak projemizde ilgili katmanda Microsoft.EntityFrameworkcore.Tools paketinin kurulu olması ve global olarak komut dizisinin console ile yüklenmesi gerekmektedir.
         dotnet tool install --global dotnet-ef ile komutları çalıştırabilir hale gelir.
+        dotnet ef migrations add ve dotnet ef database update komutları bunlara örnektir.
     - Migration komutu çalıştığında, start up ProjectName.API olduğu için bu katmanda NuGet ile Microsoft.EntityFrameworkCore.Design paketinin dahil edilmesi gerekmektedir.
 - Generic repository design pattern altyapısı hazırlıkları.
     - Öncelikle odaklanılması gereken query ve command ayırımı düşünülmelidir. Bunu basitçe select ve insert, update, delete sorgularını ayırmak olarak düşünebiliriz.
