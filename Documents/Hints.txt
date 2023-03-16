@@ -45,3 +45,12 @@
             - CustomerReadRepository, CustomerWriteRepository...
     - Oluşturulan repository'ler ServisRegistration sınıfında register edilir.
     - Bu aşamada controller'da bir method hazırlayarak yapıpın çalıştığı kontrol edilebilir.
+- Bu aşamada optimizasyon açısından biraz code refactoring yapılabilir.
+    - Entity Framework tracking mekanizmasına sahiptir. Bu mekanizma default olarak aktif gelmektedir.
+    - Takip mekanizması, gerektiğinde. Örneğin bir ürün listesi verisi elde etmek istediğimizde.
+    - Bu mekanizma anlaşılacağı üzere sadece read işlemlerinde müdehale edilebilir duruma getirilmelidir.
+    - TinyECommerce.Application katmanında IReadRepository sınıfına ait methodlarımızda, nasıl bir işlem yapmak istediğimizi belirtecek bir parametrik belirtece ihtiyacımız bulunmaktadır.
+    - Dolayısıyla bunu implemente eden TinyECommerce.Persistence katmanındaki ReadReposiyory sınıfında da aynı şekilde düzenleme yapılması gerekmektedir.
+    - Tracking default olarak aktif devam etmeli bilgisini context'imize AsQueryable methodu ile bildiriyorken, takip etmemesini AsNoTracking methodu ile bildirmemiz gerekmektedir.
+    - Böylece eğer takip edilmemesini belirterek bir veri çeker ve SaveChanges işlemi yaparsak değişikliğin gerçekleşmediğini görebiliriz. Bu durumda write sınıflarını kullanmak gerekecektir.
+    

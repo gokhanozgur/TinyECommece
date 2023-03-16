@@ -26,25 +26,10 @@ public class ProductsController: ControllerBase
     [ProducesResponseType((int)(HttpStatusCode.BadRequest))]
     public async Task<IActionResult> Get()
     {
-        try
-        {
-            await _productWriteRepository.AddRangeAsync(new()
-            {
-                new() {Id = Guid.NewGuid(), Name = "Product 1", Price = 100, Stock = 10, CreatedAt = DateTime.UtcNow},
-                new() {Id = Guid.NewGuid(), Name = "Product 2", Price = 200, Stock = 20, CreatedAt = DateTime.UtcNow},
-                new() {Id = Guid.NewGuid(), Name = "Product 3", Price = 300, Stock = 30, CreatedAt = DateTime.UtcNow},
-            });
-            var count = await _productWriteRepository.SaveAsync();
-            if (count > 0)
-            {
-                return Ok(count);
-            }
-            return BadRequest();
-        }
-        catch (Exception e)
-        {
-            return BadRequest();
-        }
+        Product p = await _productReadRepository.GetByIdAsync("faaf923e-1dc0-4ccb-8f07-2a7a28079d9a", false);
+        p.Name = "Test2";
+        await _productWriteRepository.SaveAsync();
+        return Ok();
     }
 
     [HttpGet("{id}")]
