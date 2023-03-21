@@ -24,11 +24,15 @@ public class ProductsController: ControllerBase
     [HttpGet]
     [ProducesResponseType(typeof(int), (int)(HttpStatusCode.OK))]
     [ProducesResponseType((int)(HttpStatusCode.BadRequest))]
-    public async Task<IActionResult> Get()
+    public async Task<IActionResult> Add()
     {
-        Product p = await _productReadRepository.GetByIdAsync("faaf923e-1dc0-4ccb-8f07-2a7a28079d9a", false);
-        p.Name = "Test2";
-        await _productWriteRepository.SaveAsync();
+        await _productWriteRepository.AddAsync(new Product()
+        {
+            Name = "Keyboard",
+            Price = 120,
+            Stock = 800
+        });
+        _productWriteRepository.SaveAsync();
         return Ok();
     }
 
