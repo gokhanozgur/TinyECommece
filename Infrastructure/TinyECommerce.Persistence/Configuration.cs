@@ -2,16 +2,30 @@ using Microsoft.Extensions.Configuration;
 
 namespace TinyECommerce.Persistence;
 
-static class Configuration
+public static class Configuration
 {
+    private static ConfigurationManager _configurationManager;
+
+    static Configuration()
+    {
+        _configurationManager = new ConfigurationManager();
+        _configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../Presentation/TinyECommerce.API"));
+        _configurationManager.AddJsonFile("appsettings.json");
+    }
+
     public static string PostgreSqlConnectionString
     {
         get
         {
-            ConfigurationManager configurationManager = new();
-            configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../Presentation/TinyECommerce.API"));
-            configurationManager.AddJsonFile("appsettings.json");
-            return configurationManager.GetConnectionString("PostgreSQL");
+            return _configurationManager.GetConnectionString("PostgreSQL") ?? "";
+        }
+    }
+    
+    public static string AllowedHosts
+    {
+        get
+        {
+            return _configurationManager.GetSection("AllowedHosts").Value ?? "*";
         }
     }
 }

@@ -7,6 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 /* Add Services to Ioc Container */
 builder.Services.AddPersistenceServices();
 
+/* CORS Policies */
+builder.Services.AddCors(options =>
+    options.AddDefaultPolicy(policyBuilder =>
+        policyBuilder.AllowAnyHeader().AllowAnyMethod().WithOrigins(Configuration.AllowedHosts)
+            .SetIsOriginAllowedToAllowWildcardSubdomains()
+    )
+);
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -20,6 +28,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseHttpsRedirection();
 
