@@ -26,6 +26,7 @@ public class TinyECommerceDbContext: DbContext
             {
                 EntityState.Added => datum.Entity.CreatedAt = DateTime.UtcNow,
                 EntityState.Modified => datum.Entity.UpdatedAt = DateTime.UtcNow,
+                _ => DateTime.UtcNow
             };
         }
         return await base.SaveChangesAsync(cancellationToken);
