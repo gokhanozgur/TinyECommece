@@ -57,4 +57,14 @@
     - Yazma işlemleri için:
         - Yazma işlemlerinde birçok varlıkta ortak alanlar bulunmaktadır. Örneğin CreaterAt, UpdatedAt vb. Bu alanları bir veri girişi olduğunda veya değiştiğinde tracking mekanizması ile tespit etmek mümkündür.
         - Örnek verdiğimiz alanları doldurmak için Context sınıfımızda SaveChangesAsync metodunu override etmemiz gerekmektedir. ChangeTracker property'sinden yararlanarak her bir entity'nin state'ine bakarak yapmak istediğimiz işlemi gerçekleştirebiliriz.
-    
+- Karşılanacak isteklerin belli bir veri tutarlılığına sahip olması için, ilgili alana bağlı olarak bazı kontrollerden geçmesi gerekmektedir. Bu kontrolleri sağlamak için FluentValidation yapısını kullanmak mümkündür.
+    - FluentValidation kullanmak için TinyECommerce.Application katmanında dependency olarak aşağıdaki paketler eklenmelidir.
+        - FluentValidation, FluentValidation.AspNetCore ve FluentValidation.DependencyInjectionExtensions
+    - İsteklerimizi karşılayan sınıflar Core katmanında bulunan ViewModels altında bulunmaktaydı. Aynı şekilde validator sınıflarımız için bir "Validators" dosyası oluşturulur ve burada ilgili isteği karşılayacak sınıfın validator sınıfları oluşturulur.
+    - FluentValidation altyapısında kullanılabilinir kontroller kendi dokumantasyonunda basit bir şekilde açıklanmıştır.
+    - Oluşturduğumuz validation sınıfınının çalışması için API katmanında Program.cs içerisinde belirtmiş olmamız gerekmektedir.
+    ?- Assembly seviyesinde belirteceğimiz için bir tane sınıfı belirmemiz yeterli olacaktır.
+    - Controller sınıfımızda ModelState.IsValid gibi bir kontrol eklediğimizde, debug ile kontrol sağladığımızda bu scope'a hiç düşmediğini gözlemliyor oluruz. Bunun sebebi framework seviyesinde zaten field validator yapısının çalışmasından dolayı istek daha controller'a gelmeden hata fırlatmış oluyoruz.
+    - Bu validation mekanizmasını deaktif ederek kendi validation sınıfımızı yazmamız mümkündür.
+    - TintECommerce.Infrastructure katmanında "Filters" adında bir dosya oluşturulur ve içerisine bizim validator sınıfımız oluşturulur.
+    - Oluşturulan sınıf aynı şekilde API katmanında Program.cs içerisinde belirtilir.

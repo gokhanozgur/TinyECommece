@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ivA52rxTGz9WPXytUJSldnqAlDG/r1hPy22fQPMD9v9Ufv9GRO/x+WVZkqGYJCgJIuIp3L3e48LwM9w6La4Kvg==",
+  "dgSpecHash": "MTzBQ/ZKY2E9PfVQ1IoMKBRAutqr9tI8uXjL8tF+Qaxs29ZfZ6TQxo8Ab6z1g07kKVQhWNhuvZAAS0GdLAl1dw==",
   "success": true,
   "projectFilePath": "/Users/gokhanozgur/Documents/Projects/dotnet-projects/TinyECommece/Infrastructure/TinyECommerce.Persistence/TinyECommerce.Persistence.csproj",
   "expectedPackageFiles": [
+    "/Users/gokhanozgur/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.2/fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/microsoft.entityframeworkcore/7.0.3/microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.3/microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",

@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Infrastructure\TinyECommerce.Infrastructure\TinyECommerce.Infrastructure.csproj" />
       <ProjectReference Include="..\..\Infrastructure\TinyECommerce.Persistence\TinyECommerce.Persistence.csproj" />
     </ItemGroup>
 
